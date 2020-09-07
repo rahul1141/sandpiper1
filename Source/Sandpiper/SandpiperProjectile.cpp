@@ -28,7 +28,7 @@ ASandpiperProjectile::ASandpiperProjectile()
 	ProjectileMovement->bShouldBounce = false;
 
 	// Die after 3 seconds by default
-	InitialLifeSpan = 100.0f;
+	InitialLifeSpan = 200;
 }
 
 void ASandpiperProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
